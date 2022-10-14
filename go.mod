@@ -1,4 +1,4 @@
-module example/hello
+module github.com/nrynss/jfrog-pipelines-go-sample/hello
 
 go 1.19
 
