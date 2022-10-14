@@ -27,7 +27,7 @@ pipelines:
         type: GoBuild
         configuration:
           sourceLocation: .
-          resolverRepo: go-remote
+          resolverRepo: go-virtual
           noRegistry: true
           inputResources:
             - name: go_repo
