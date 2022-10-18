@@ -27,7 +27,7 @@ pipelines:
         type: GoBuild
         configuration:
           sourceLocation: .
-          resolverRepo: go-virtual
+          resolverRepo: sam-go-virtual
           noRegistry: true
           inputResources:
             - name: go_repo
@@ -40,7 +40,7 @@ pipelines:
         configuration:
           inputSteps:
             - name: build_go
-          targetRepository: go-local
+          targetRepository: sam-go-local
           integrations:
             - name: {{ .Values.artifactory }}
 
