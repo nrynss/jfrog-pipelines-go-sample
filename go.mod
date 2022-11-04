@@ -1,4 +1,4 @@
-module github.com/nrynss/jfrog-pipelines-go-sample/hello
+module github.com/you/hello
 
 go 1.19
 
